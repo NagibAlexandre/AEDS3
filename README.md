@@ -1,5 +1,5 @@
 # AEDS3
-#Alunos: João Vítor de Freitas Scarlatelli, Luisa Clara de Paula Lara Silva, Nagib Alexandre Verly Borjaili e Yasmin Cassemiro Viegas
+# Alunos: João Vítor de Freitas Scarlatelli, Luisa Clara de Paula Lara Silva, Nagib Alexandre Verly Borjaili e Yasmin Cassemiro Viegas
 
 O trabalho prático é sobre o controle de espaços dos registros excluídos no CRUD genérico,  tem-se campos marcados com * que são as lápides, e outros dois campos do registro, indicador do tamanho de registro (tamanho do vetor de bytes) e o vetor de bytes, nosso código procura as lápide s e verifica se o tamanho do registro seria compatível com o tamanho deixado pela lápide, caso seja compatível coloca-se o vetor de bytes naquela lápide caso não seja seria adicionado o vetor no final do arquivo. 
 
