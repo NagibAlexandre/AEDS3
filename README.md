@@ -5,6 +5,8 @@ O trabalho prático é sobre o controle de espaços dos registros excluídos no 
 
 O trabalho foi feito em uma call no discord com todos os membros presentes, para facilitar a comunicação e todos estarem a parte do projeto como um todo, implementamos todos os requisitos e todos os resultados foram alcançados, a dificuldade foi apenas inicial até compreender melhor como poderíamos iniciar o trabalho e o que ele pedia de fato, entretanto na hora de programar não houve desafios grandes ou uma operação mais difícil.
 
+# Checklist
+
 * SIM O que você considerou como perda aceitável para o reuso de espaços vazios, isto é, quais são os critérios para a gestão dos espaços vazios?
 * SIM O código do CRUD com arquivos de tipos genéricos está funcionando corretamente?
 * SIM O CRUD tem um índice direto implementado com a tabela hash extensível?
