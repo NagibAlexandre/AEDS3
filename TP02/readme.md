@@ -41,7 +41,7 @@ Sim, o usuário pode buscar livros com mais de uma palavra. O método Search tem
 Sim, encontramos um .txt no github que tem diversas stopwords em portugês (https://gist.github.com/alopes/5358189), e para não contar as stopwors, temos a função getStopWords que lê o stopwords.txt armazenar as palavras em um arraylist global e depois nas funções Insert e Exclude vemos se elas são uma das palavras digitadas e as pulamos.
 
 **-   Que modificação, se alguma, você fez para além dos requisitos mínimos desta tarefa?**
-Não fizemos grandes modificações para além dos requisitos da tarefa.
+Não fizemos grandes modificações além dos requisitos pedidos na tarefa.
 
 **-   O trabalho está funcionando corretamente?**
 Sim, todo o trabalho foi testado e ele está funcionando corretamente.
