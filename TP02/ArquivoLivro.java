@@ -200,7 +200,11 @@ public class ArquivoLivro {
             }
         }
 
-        System.out.println("\nOs livros que contém as palavras inseridas possuem o(s) dado(s): " + intersecao);
+        if (intersecao.isEmpty()) {
+            System.out.println("\nOs livros que contém as palavras inseridas { "+newChave+" } não possuem chaves em comum.");
+        }else{
+            System.out.println("\nOs livros que contém as palavras inseridas { "+newChave+" } possuem o(s) dado(s): " + intersecao);
+        }
     }
 
 }
