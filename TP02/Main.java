@@ -1,8 +1,3 @@
-// arrumar a leitura de caracteres com ascento
-// arrumar a mensagem de erro caso não tenha o que ser manipulado
-// comentar os códigos
-// fazer o readme
-
 import java.util.Scanner;
 import java.io.File;
 import aed3.ListaInvertida;
@@ -26,7 +21,8 @@ public class Main {
 
       int opcao;
       do {
-        System.out.println("\n\n+-----------------------------+");
+        System.out.println("\n\n");
+        System.out.println("+-----------------------------+");
         System.out.println("|             MENU            |");
         System.out.println("+-----------------------------+");
         System.out.println("| 1 - Inserir                 |");
@@ -107,4 +103,11 @@ public class Main {
     }
     console.close();
   }
+
+
+
+
+
+
+
 }
