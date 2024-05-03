@@ -15,7 +15,7 @@
  *
  * Implementado pelos integrantes (João Vítor, Luisa Silva, Nagib Alexandre, Yasmin Cassemiro)
  * 
- * Com base nós códigos fornecidos pelo Prof. Marcos Kutova
+ * Com base nos códigos fornecidos pelo Prof. Marcos Kutova
  * 
  * 2024
  */
