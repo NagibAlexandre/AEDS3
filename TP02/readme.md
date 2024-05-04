@@ -9,6 +9,10 @@
 
 **Classe ArquivoLivro:** O ArquivoLivro tem a função de reunir as operações de manipulação do objeto livro, nele existem operações de crud principais de inclusão, exclusão, pesquisa e alteração. A parte principal do arquivo livro é que, ele se utilizando também das funções  já estabelecidas em ListaInvertida.java, permite com que seja possível a manipulação de uma sequência de palavras ao invés de somente 1 por operação.
 
+**Método getStopwords na classe ArquivoLivros:** Encontramos um .txt no github que tem diversas stopwords em portugês (https://gist.github.com/alopes/5358189), e no método getStopwords pegamos todo esse .txt e os transformamos em um arraylist global
+
+**Método formatWord na classe ArquivoLivros:** Como o scanner tem uma limitação a não ler a entrada do terminal no formato UTF-8 arranjamos cada uma das letras acentuadas em Set's e por meio da função .contains que tem complexidade O(1) trocamos as letras com acentos para as normais
+
 **Método Insert na classe ArquivoLivro:** O método Insert de forma concisa, obtém as palavras/chaves informadas pelo usuário juntamente com o dado, trata a estrutura dessas palavras, colocando em minúsculo e retirando acentos, em seguida divide essas chaves em elementos de um array de String por meio do método split() sendo o fator para separação o espaço em branco. Em seguida para cada palavra do array, ele adiciona ela no seu campo específico e adiciona a chave informada.
 
 **Método Alter na classe ArquivoLivro:** O método Alter pode ser descrito como uma junção de Insert e Delete, a priori ele remove o dado da(s) chave(s) requisitadas e insere o(s) novo(s).
@@ -17,10 +21,19 @@
 
 **Método Search na classe ArquivoLivro:** O método Search para cada chave inserida realiza o processo de encontrar os dados de intercessão resultantes, ele consegue fazer isso pois se beneficia das propriedades das HashSet’s de não repetição de elementos e do método retainall() que já retorna uma sequência de valores da intercessão.
 
-**Método getStopwords na classe ArquivoLivros:** Encontramos um .txt no github que tem diversas stopwords em portugês (https://gist.github.com/alopes/5358189), e no método getStopwords pegamos todo esse .txt e os transformamos em um arraylist global
-
-
 # Perguntas
+
+**-   Vocês implementaram todos os requisitos?** 
+Sim todos os requisitos pedidos no TP2 foram implementados e explicados pelo grupo tanto em comentários no código quanto na parte de Métodos e Classes criadas deste relatório.
+
+**-   Houve alguma operação mais difícil?** 
+A operação mais difícil de ser feita foi o Search, pois tínhamos que pensar na lógica de pesquisa para qualquer quantidade de palavras inseridas pelo usuário e ao mesmo tempo encontrar os dados das intercessões resultantes. 
+
+**-   Vocês enfrentaram algum desafio na implementação?**
+Sim, encontramos um desafio durante a implementação relacionado à leitura de letras acentuadas digitadas pelo usuário. Após reflexão e lembrança de um trabalho prático do semestre anterior que tratava da mesma questão, conseguimos encontrar uma solução utilizando códigos Unicode de caracteres específicos e substituindo-os por suas versões sem acento, garantindo assim a funcionalidade desejada.
+
+**-   Os resultados foram alcançados?** 
+Sim, todas as metas estabelecidas para o Trabalho Prático 2 foram atingidas pelo grupo.
 
 **-   A inclusão de um livro acrescenta os termos do seu título à lista invertida?**
 Sim, quando incluímos um livro se cria um índice novo na lista invertida para cada termo do título do livro. 
