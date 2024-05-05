@@ -11,7 +11,7 @@
 
 **Método getStopwords na classe ArquivoLivros:** Encontramos um .txt no github que tem diversas stopwords em portugês (https://gist.github.com/alopes/5358189), e no método getStopwords pegamos todo esse .txt e os transformamos em um arraylist global
 
-**Método formatWord na classe ArquivoLivros:** Como o scanner tem uma limitação a não ler a entrada do terminal no formato UTF-8 arranjamos cada uma das letras acentuadas em Set's e por meio da função .contains que tem complexidade O(1) trocamos as letras com acentos para as normais
+**Método formatWord na classe ArquivoLivros:** Como o scanner tem uma limitação a não ler a entrada do terminal no formato UTF-8 arranjamos cada uma das letras acentuadas em Set's e por meio da função .contains que tem complexidade O(1) trocamos as letras com acentos para as suas correspondentes sem ascento. Em seguida retiramos quaisquer caracteres que não sejam letras válidas e colocamos todas as letras da palavra final em minúsculo.
 
 **Método Insert na classe ArquivoLivro:** O método Insert de forma concisa, obtém as palavras/chaves informadas pelo usuário juntamente com o dado, trata a estrutura dessas palavras, colocando em minúsculo e retirando acentos, em seguida divide essas chaves em elementos de um array de String por meio do método split() sendo o fator para separação o espaço em branco. Em seguida para cada palavra do array, ele adiciona ela no seu campo específico e adiciona a chave informada.
 
